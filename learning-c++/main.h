@@ -8,5 +8,6 @@ namespace callable_functions {
 	extern void simple_loop();
 	extern void multiplication_table();
 	extern void sum_of_array();
+	extern void factorial_calculator();
 
 }

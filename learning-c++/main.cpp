@@ -9,7 +9,8 @@ int main() {
 	// callable_functions::input_output();
 	// callable_functions::simple_loop();
 	// callable_functions::multiplication_table();
-	callable_functions::sum_of_array();
+	// callable_functions::sum_of_array();
+	callable_functions::factorial_calculator();
 
 	return 0;
 }
