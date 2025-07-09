@@ -1,5 +1,6 @@
 ﻿#include "main.h"
 #include <iostream>
+#include "wrappers/wrapper.h"
 
 // here we got our main entry point.
 int main() {
@@ -21,16 +22,8 @@ int main() {
 		std::cout << "10. simple function\n";
 		
         std::cout << "0. exit\n";
-        std::cout << "enter choice: ";
-        std::cin >> choice;
-
-        if (std::cin.fail()) {
-            std::cin.clear(); // clear the error flag
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // discard invalid input
-            choice = -1; // set to an invalid choice
-        } else {
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // discard any remaining input
-		}
+        // use the wrapper here for safe int input:
+        choice = wrappers::get_valid_int("enter choice: ");
 
         switch (choice) {
         case 1:

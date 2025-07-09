@@ -7,16 +7,6 @@ namespace callable_functions {
 		// predefined variables.
 		int number = wrappers::get_valid_int("enter a number: ");
 
-
-		// check if the input is valid.
-		if (std::cin.fail()) {
-			// if the input is not a number, clear the error and ignore the rest of the line.
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-			std::cout << "invalid input. please enter a valid number." << std::endl;
-			return; // exit the function early.
-		}
-
 		// print the multiplication table for the number.
 		for (int i = 1; i <= 10; ++i) {
 			std::cout << number << " * " << i << " = " << number * i << std::endl;
