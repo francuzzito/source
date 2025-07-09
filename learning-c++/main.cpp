@@ -54,7 +54,7 @@ int main() {
             callable_functions::palindrome_checker();
             break;
         case 10: { // simple function method.
-            const int result = callable_functions::simple_function();
+        	int result = callable_functions::simple_function();
             std::cout << "result of simple function: " << result << "\n";
             break;
         }
