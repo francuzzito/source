@@ -38,6 +38,9 @@
     <ClCompile Include="factorial_calculator.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="palindrome_checker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

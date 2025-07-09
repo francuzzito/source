@@ -130,6 +130,7 @@
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="multiplication_table.cpp" />
+    <ClCompile Include="palindrome_checker.cpp" />
     <ClCompile Include="simple_loop.cpp" />
     <ClCompile Include="sum_of_array.cpp" />
   </ItemGroup>

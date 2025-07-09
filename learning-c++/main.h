@@ -9,5 +9,6 @@ namespace callable_functions {
 	extern void multiplication_table();
 	extern void sum_of_array();
 	extern void factorial_calculator();
+	extern void palindrome_checker();
 
 }
