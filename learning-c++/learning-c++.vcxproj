@@ -128,6 +128,7 @@
     <ClCompile Include="hello_world.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="simple_loop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
