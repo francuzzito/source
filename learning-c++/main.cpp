@@ -1,16 +1,14 @@
-﻿#include <iostream>
+﻿#include "main.h"
 
-// ask the user for a number and print its multiplication table up to 10.
+// here we got our main entry point.
 int main() {
-	// predefined variables.
-	int number;
-	std::cout << "enter a number: ";
-	std::cin >> number;
-
-	// print the multiplication table for the number.
-	for (int i = 1; i <= 10; ++i) {
-		std::cout << number << " * " << i << " = " << number * i << std::endl;
-	}
+	// choose beetween functions by commenting or uncommenting them out for now..
+	// callable_functions::basic_calculator();
+	// callable_functions::even_or_odd();
+	// callable_functions::hello_world();
+	// callable_functions::input_output();
+	// callable_functions::simple_loop();
+	callable_functions::multiplication_table();
 
 	return 0;
 }

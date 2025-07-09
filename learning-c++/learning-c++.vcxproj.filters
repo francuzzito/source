@@ -29,5 +29,13 @@
     <ClCompile Include="simple_loop.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="multiplication_table.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
