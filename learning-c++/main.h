@@ -1,10 +1,12 @@
 #pragma once
 
 namespace callable_functions {
-	extern int basic_calculator();
-	extern int even_or_odd();
-	extern int hello_world();
-	extern int input_output();
-	extern int simple_loop();
-	extern int multiplication_table();
+	extern void basic_calculator();
+	extern void even_or_odd();
+	extern void hello_world();
+	extern void input_output();
+	extern void simple_loop();
+	extern void multiplication_table();
+	extern void sum_of_array();
+
 }

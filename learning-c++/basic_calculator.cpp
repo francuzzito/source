@@ -2,7 +2,7 @@
 
 namespace callable_functions {
 	// take two numbers and print their sum, difference, product, and quotient.
-	int basic_calculator() {
+	void basic_calculator() {
 		// predefined variables.
 		double num1, num2, result; // use double for better precision.
 		char opp;
@@ -35,15 +35,13 @@ namespace callable_functions {
 			}
 			else {
 				std::cout << "error: division by zero\n";
-				return 1; // exit with error code if division by zero.
+				return; // exit with error code if division by zero.
 			}
 		}
 		else {
 			std::cout << "invalid operator\n";
-			return 1; // exit with error code if operator is invalid.
+			return; // exit with error code if operator is invalid.
 		}
 		std::cout << "result: " << result << "\n";
-
-		return 0;
 	}
 }

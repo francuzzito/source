@@ -3,7 +3,7 @@
 
 namespace callable_functions {
 	// ask the user for their name and age, then print it back.
-	int input_output() {
+	void input_output() {
 		// predefine variables.
 		std::string name;
 		int age;
@@ -18,7 +18,5 @@ namespace callable_functions {
 
 		// print the result.
 		std::cout << "hello dear " << name << ", you are " << age << " years old.\n";
-
-		return 0;
 	}
 } 

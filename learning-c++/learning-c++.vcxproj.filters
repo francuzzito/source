@@ -32,6 +32,9 @@
     <ClCompile Include="multiplication_table.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="sum_of_array.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

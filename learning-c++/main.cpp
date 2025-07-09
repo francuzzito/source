@@ -8,7 +8,8 @@ int main() {
 	// callable_functions::hello_world();
 	// callable_functions::input_output();
 	// callable_functions::simple_loop();
-	callable_functions::multiplication_table();
+	// callable_functions::multiplication_table();
+	callable_functions::sum_of_array();
 
 	return 0;
 }

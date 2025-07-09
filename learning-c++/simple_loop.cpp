@@ -2,7 +2,7 @@
 
 namespace callable_functions {
 	// print numbers from 0 to 10 using a loop.
-	int simple_loop() {
+	void simple_loop() {
 		// predefined variables.
 		int number = 0;
 
@@ -10,7 +10,5 @@ namespace callable_functions {
 			std::cout << number << "\n";
 			number++; // increment by one.
 		}
-
-		return 0;
 	}
 }

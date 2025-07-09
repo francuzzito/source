@@ -2,7 +2,7 @@
 
 namespace callable_functions {
 	// ask the user for a number, then print whether it's even or odd.
-	int even_or_odd() {
+	void even_or_odd() {
 		// predefined variables.
 		int number;
 
@@ -15,7 +15,5 @@ namespace callable_functions {
 			std::cout << "the number is even.\n";
 		else
 			std::cout << "the number is odd.\n";
-
-		return 0;
 	}
 }
