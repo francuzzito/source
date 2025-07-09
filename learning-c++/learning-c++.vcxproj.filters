@@ -44,9 +44,15 @@
     <ClCompile Include="simple_function.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="wrappers\wrapper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wrappers\wrapper.h">
       <Filter>headers</Filter>
     </ClInclude>
   </ItemGroup>

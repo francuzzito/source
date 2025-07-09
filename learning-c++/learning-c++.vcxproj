@@ -134,9 +134,11 @@
     <ClCompile Include="simple_function.cpp" />
     <ClCompile Include="simple_loop.cpp" />
     <ClCompile Include="sum_of_array.cpp" />
+    <ClCompile Include="wrappers\wrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
+    <ClInclude Include="wrappers\wrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

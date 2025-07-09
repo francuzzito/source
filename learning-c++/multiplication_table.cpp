@@ -1,12 +1,12 @@
 #include <iostream>
+#include "wrappers/wrapper.h"
 
 namespace callable_functions {
 	// ask the user for a number and print its multiplication table up to 10.
 	void multiplication_table() {
 		// predefined variables.
-		int number;
-		std::cout << "enter a number: ";
-		std::cin >> number;
+		int number = wrappers::get_valid_int("enter a number: ");
+
 
 		// check if the input is valid.
 		if (std::cin.fail()) {
