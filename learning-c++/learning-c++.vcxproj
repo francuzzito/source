@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="basic_calculator.cpp" />
+    <ClCompile Include="even_or_odd.cpp" />
     <ClCompile Include="hello_world.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="main.cpp" />

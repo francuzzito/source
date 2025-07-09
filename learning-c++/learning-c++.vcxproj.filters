@@ -23,5 +23,8 @@
     <ClCompile Include="basic_calculator.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="even_or_odd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
