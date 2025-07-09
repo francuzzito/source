@@ -10,5 +10,5 @@ namespace callable_functions {
 	extern void sum_of_array();
 	extern void factorial_calculator();
 	extern void palindrome_checker();
-
+	extern int simple_function();
 }

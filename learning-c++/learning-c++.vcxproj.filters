@@ -41,6 +41,9 @@
     <ClCompile Include="palindrome_checker.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="simple_function.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
