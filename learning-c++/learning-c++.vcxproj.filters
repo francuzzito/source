@@ -17,5 +17,8 @@
     <ClCompile Include="hello_world.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="input_output.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
