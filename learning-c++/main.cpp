@@ -4,7 +4,7 @@
 #include "wrappers/wrapper.h"
 
 // windows-specific clear screen function.
-// not made by me, but it works well for clearing the console screen.
+// found online unfortunatly, but it works well for clearing the console screen.
 void clear_screen() {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     CONSOLE_SCREEN_BUFFER_INFO csbi;
@@ -100,9 +100,9 @@ int main() {
             std::cout << "invalid choice, try again.\n";
         }
 
-        // If not exiting, pause before clearing and showing menu again
+        // if not exiting, pause before clearing and showing menu again.
         if (choice != 0) {
-            std::cout << "\npress enter to continue...";
+            std::cout << "\n press enter to continue...";
             std::cin.ignore();
             std::cin.get();
         }
